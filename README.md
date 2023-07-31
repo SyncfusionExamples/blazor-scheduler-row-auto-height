@@ -1,4 +1,4 @@
-# blazor-scheduler-row-auto-height
+# Blazor Scheduler Row Auto Height
 A quick-start project that helps you how to implement Row Auto Height in Blazor Scheduler Component. 
 
 Documentation: https://blazor.syncfusion.com/documentation/scheduler/row-auto-height
