@@ -1,15 +1,36 @@
-# Blazor Scheduler Row Auto Height
-A quick-start project that helps you how to implement Row Auto Height in Blazor Scheduler Component. 
+# How to implement Row Auto Height in Blazor Scheduler
 
-Documentation: https://blazor.syncfusion.com/documentation/scheduler/row-auto-height
+This quick-start project demonstrates how to implement row auto height in the [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler), automatically adjusting row sizes based on event content. It showcases improving visual presentation and readability when handling appointments with varying content lengths, providing a practical approach to enhancing user experience in scheduling applications.
 
-Online examples: https://blazor.syncfusion.com/demos/scheduler/adaptive-rows?theme=fluent
-                 
-# Project prerequisites
-Make sure that you have the latest versions of 'Visual Studio 2022' in your machine before starting to work on this project.
-# How to run this application?
-• To run this application, you need to first clone the <code>blazor-scheduler-row-auto-height</code> repository and then open it in Visual Studio 2022.
+## Features
 
-• Register the syncfusion license key in the Program.cs file, if you have any doubts check the documentation link:  https://blazor.syncfusion.com/documentation/getting-started/license-key/how-to-register-in-an-application
+- Automatic row height adjustment based on content
+- Adaptive layout for different event types
+- Seamless integration with Blazor Scheduler
+- Responsive design for multiple device types
 
-• Now, simply build and run your project to view the output.
+## Prerequisites
+
+* Visual Studio 2022
+* .NET 7.0 or later
+
+## How to run the project
+
+1. Checkout this project to your local machine
+2. Open the solution file using Visual Studio 2022
+3. Build the solution to restore the required NuGet packages
+4. Press `F5` to start the application
+
+## Documentation
+
+- **Blazor Introduction:** https://blazor.syncfusion.com/documentation/introduction
+- **Blazor Scheduler Getting Started:** https://blazor.syncfusion.com/documentation/schedule/getting-started
+- **Row Auto Height Documentation:** https://blazor.syncfusion.com/documentation/scheduler/row-auto-height
+
+## Online Examples
+
+View live examples: https://blazor.syncfusion.com/demos/scheduler/adaptive-rows?theme=fluent
+
+## Support
+
+For questions or issues, refer to the [Syncfusion Blazor documentation](https://blazor.syncfusion.com/documentation) or contact Syncfusion support.
