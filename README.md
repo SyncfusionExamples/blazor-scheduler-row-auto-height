@@ -19,7 +19,7 @@ This quick-start project demonstrates how to implement row auto height in the [B
 **Visual Studio 2026**:
 
 * Checkout this project to a location in your disk.
-* Open the project (`Scheduler_RowAutoHeight.csproj` or `Scheduler_RowAutoHeight.csproj`) file.
+* Open the project (`Scheduler_RowAutoHeight.csproj`) file.
 * Restore the NuGet packages.
 * Run the project.
 
