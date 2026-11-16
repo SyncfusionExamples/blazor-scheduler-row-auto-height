@@ -1,6 +1,6 @@
 # How to implement Row Auto Height in Blazor Scheduler
 
-This quick-start project demonstrates how to implement row auto height in the [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler), automatically adjusting row sizes based on event content. It showcases improving visual presentation and readability when handling appointments with varying content lengths, providing a practical approach to enhancing user experience in scheduling applications.
+This quick-start project demonstrates how to implement row auto height in the [Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler), automatically adjusting row sizes based on event content. It showcases improving visual presentation and readability when handling appointments with varying content lengths, providing a practical approach to enhancing user experience in scheduling applications.
 
 ## Features
 
@@ -11,26 +11,54 @@ This quick-start project demonstrates how to implement row auto height in the [B
 
 ## Prerequisites
 
-* Visual Studio 2022
-* .NET 7.0 or later
+- Visual Studio 2026 or Visual Studio Code
+- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
 
 ## How to run the project
 
-1. Checkout this project to your local machine
-2. Open the solution file using Visual Studio 2022
-3. Build the solution to restore the required NuGet packages
-4. Press `F5` to start the application
+**Visual Studio 2026**:
+
+* Checkout this project to a location in your disk.
+* Open the project (`Scheduler_RowAutoHeight.csproj`) file.
+* Restore the NuGet packages.
+* Run the project.
+
+**Visual Studio Code**:
+
+* Open the repository folder in Visual Studio Code.
+* Open the integrated terminal.
+* Navigate to the repository root.
+
+For server,
+
+```bash
+cd blazor-scheduler-row-auto-height
+cd Scheduler_Server
+dotnet restore
+dotnet run
+```
+
+For WASM,
+
+```bash
+cd blazor-scheduler-row-auto-height
+cd Scheduler_Wasm
+dotnet restore
+dotnet run
+```
+
+Open the URL displayed in the terminal after the application starts.
 
 ## Documentation
 
 - **Blazor Introduction:** https://blazor.syncfusion.com/documentation/introduction
-- **Blazor Scheduler Getting Started:** https://blazor.syncfusion.com/documentation/schedule/getting-started
-- **Row Auto Height Documentation:** https://blazor.syncfusion.com/documentation/scheduler/row-auto-height
+- **Blazor Scheduler Getting Started:** https://help.syncfusion.com/scheduler-sdk/blazor/schedule/getting-started-with-server-app
+- **Row Auto Height Documentation:** https://help.syncfusion.com/scheduler-sdk/blazor/schedule/row-auto-height
 
 ## Online Examples
 
-View live examples: https://blazor.syncfusion.com/demos/scheduler/adaptive-rows?theme=fluent
+View live examples: https://blazor.syncfusion.com/demos/scheduler/adaptive-rows?theme=fluent2
 
 ## Support
 
-For questions or issues, refer to the [Syncfusion Blazor documentation](https://blazor.syncfusion.com/documentation) or contact Syncfusion support.
+For questions or issues, refer to the [Syncfusion Blazor documentation](https://blazor.syncfusion.com/documentation/introduction) or contact Syncfusion support.
