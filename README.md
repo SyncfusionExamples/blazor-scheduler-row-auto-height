@@ -12,7 +12,7 @@ This quick-start project demonstrates how to implement row auto height in the [B
 ## Prerequisites
 
 * Visual Studio 2022
-* .NET 7.0 or later
+* .NET 10.0 or later
 
 ## How to run the project
 
